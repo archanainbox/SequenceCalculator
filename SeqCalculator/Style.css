@@ -1,0 +1,41 @@
+﻿.calc-div {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    background: grey;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+    .calc-div #top > input {
+        display: inline-block;
+        width: 90%;
+        margin: 4px;
+        padding: 7px;
+    }
+
+    .calc-div p {
+        display: block;
+        width: 100%;
+    }
+
+        .calc-div p button {
+            width: 23%;
+            padding: 10px 6px;
+            background: #2D2D2D;
+            border: 1px solid #2D2D2D;
+            margin-right: 4px;
+            color: #fff;
+            border-radius: 4px;
+            outline: none;
+        }
+
+h1 {
+    text-align: center;
+}
+#ResultSequence {
+    width: 800px;
+    height: 300px;
+    background: gray;
+    margin: 10px auto;
+}
