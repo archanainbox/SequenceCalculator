@@ -14,8 +14,14 @@
     var zDom = $("#z");
     
     $("#number_input").keydown(function (e) {
+        //Ensure that it is a number and stop the keypress.Send an error message to user 
+        //if ((e.keyCode == 190))
+        // {
+                //e.preventDefault();
+                //alert('Please enter Positive whole Number.');
+         //}
         // Allow: backspace, delete, tab, escape, enter and .
-        if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
+        if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110]) !== -1 ||
             // Allow: Ctrl+A, Command+A
             (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) ||
             // Allow: home, end, left, right, down, up
@@ -29,6 +35,9 @@
             e.preventDefault();
             alert('Please enter Positive whole Number.');
         }
+
+        
+
     });
 
     $('.btnClick1 button').click(function () {
