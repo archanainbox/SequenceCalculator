@@ -12,7 +12,7 @@ namespace SeqCalculator.Controllers
         // GET: api/FibonacciSeries
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "1" };
         }
 
         // GET: api/FibonacciSeries/5

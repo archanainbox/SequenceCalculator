@@ -12,7 +12,7 @@ namespace SeqCalculator.Controllers
         // GET: api/EOutput
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "5" };
         }
 
         // GET api/e/5

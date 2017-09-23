@@ -12,7 +12,7 @@ namespace SeqCalculator.Controllers
         // GET: api/OddNum
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "0" };
         }
 
         // GET api/odd/5

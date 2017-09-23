@@ -11,7 +11,7 @@ namespace SeqCalculator.Controllers
     {
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "1" };
         }
 
         // GET: api/AllNum/5
