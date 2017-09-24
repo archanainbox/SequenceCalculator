@@ -51,3 +51,5 @@ bld/
 [Oo]bj/
 /DB-Backup/Moand-EAB.bak
 /DB-Backup/Moand-EAB.bak
+/chromedriver.exe
+/SeqCalculator.UI.Tests/geckodriver.exe
