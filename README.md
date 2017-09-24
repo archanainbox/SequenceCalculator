@@ -19,7 +19,7 @@
  
 Run UI test in vs2017:
 
-![Alt text](SequenceCalcUIPass.png)
+![Alt text](SequenceCalcUIPassed.png)
 
 UI test result:
 
